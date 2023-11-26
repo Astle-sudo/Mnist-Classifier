@@ -1,0 +1,27 @@
+{
+	"name": "imageclassifier",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/kit": "^1.27.4",
+		"svelte": "^4.0.5",
+		"vite": "^4.4.2"
+	},
+	"type": "module",
+	"dependencies": {
+		"@tensorflow/tfjs": "^4.13.0",
+		"@tensorflow/tfjs-node": "^4.13.0",
+		"aws-sdk": "^2.1501.0",
+		"babel-polyfill": "^6.26.0",
+		"chart.js": "^4.4.0",
+		"mock-aws-s3": "^4.0.2",
+		"nock": "^13.3.8",
+		"node-fetch": "^3.3.2"
+	}
+}
