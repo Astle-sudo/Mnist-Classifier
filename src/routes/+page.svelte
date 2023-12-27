@@ -4,7 +4,7 @@
     import { onMount } from "svelte";
 
     async function loadModel () {
-        model = await flow.loadLayersModel('/bettersoftmaxJSON/model.json');
+        model = await flow.loadLayersModel('/LeNet/model.json');
     }
 
     const box = () => {
