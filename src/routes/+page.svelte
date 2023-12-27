@@ -75,7 +75,7 @@
 
     function predict () {
         let input = flow.tensor(getArray());
-        let reshapedInput = input.reshape([1,28,28]);
+        let reshapedInput = input.reshape([-1,28,28,1]);
         distribution = model.predict(reshapedInput).dataSync();
         makegraph(distribution);
         chart.$destroy();
